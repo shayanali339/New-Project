@@ -1,12 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<style> 
+div.a {
+  padding: 20px 0;
+  background-color: black;
+  color: #fff;
+  transform: rotate(-20deg);
+}
+.floating--text-wrapper {
+    transform: rotate(-1.5deg);
+    padding: 20px 0;
+    background-color: black;
+    }
+.floating--text-container {
+display: flex;
+overflow: hidden;
+}
+
+.floating--content {
+	display: flex;
+    gap: 50px;
+    color: #fff;
+}
+
+</style>
 </head>
 <body>
-    <h1>muhammad aoun shabbir</h1>
-    <p>I chaned this file</p>
+
+      <div class="floating--text-wrapper bg-black">
+          <div class="floating--text-container d-flex overflow-hidden w-100">
+            
+            <div class="floating--content d-flex">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+            <div class="floating--content d-flex">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+            <div class="floating--content d-flex">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+            <div class="floating--content d-flex">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+            <div class="floating--content d-flex">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+            <div class="floating--content d-flex">
+              <span>Download </span>
+              <span class="mark_star">•</span>
+            </div>
+
+          </div>
+      </div>
+
 </body>
 </html>
